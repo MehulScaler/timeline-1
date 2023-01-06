@@ -1,8 +1,8 @@
-.container {
+.main {
     position: relative;
 }
 
-.line {
+.main__line {
     position: absolute;
     left: 50%;
     height: 100%;
@@ -10,22 +10,25 @@
     background-color: red;
 }
 
-.parent {
+.main__block {
     position: relative;
     padding: 2%;
 }
 
-.child1 {
+.main__block1 {
     display: inline;
     width: 50%;
+}
+
+.main--dark {
     font-weight: bold;
 }
 
-.child1__child_normal {
+.main--light {
     font-weight: 100;
 }
 
-.dot {
+.main__circle {
     position: absolute;
     content: '';
     height: 30px;
@@ -37,7 +40,7 @@
     transform: translate(-50%,-50%);
 }
 
-.child2 {
+.main__block2 {
     display: inline;
     position: absolute;
     font-weight: bold;
