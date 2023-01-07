@@ -15,9 +15,11 @@
     padding: 2%;
 }
 
-.main__block1 {
+.main__left {
     display: inline;
-    width: 50%;
+    position: absolute;
+    font-size: 1.2vw;
+    width: 70%;
 }
 
 .main--dark {
@@ -31,8 +33,8 @@
 .main__circle {
     position: absolute;
     content: '';
-    height: 30px;
-    width: 30px;
+    height: 40%;
+    width: 1.75%;
     background-color: green;
     border-radius: 50%;
     top: 50%;
@@ -40,10 +42,11 @@
     transform: translate(-50%,-50%);
 }
 
-.main__block2 {
+.main__right {
     display: inline;
     position: absolute;
     font-weight: bold;
+    font-size: 1.2vw;
     padding-left: 10%;
     left: 45%;
     top: 40%;
